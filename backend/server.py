@@ -23,7 +23,7 @@ app.add_middleware(
 
 # MongoDB connection
 MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://localhost:27017/')
-client = MongoClient(MONGO_URL, tlsCAFile=certifi.where())
+client = MongoClient(MONGO_URL)
 db = client.portfolio_db
 
 # Collections
