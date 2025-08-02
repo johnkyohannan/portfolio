@@ -46,7 +46,7 @@
 }
 
 .card-glass {
-  @apply glass dark:glass-dark hover:shadow-2xl transition-all duration-300 hover:-translate-y-2;
+  @apply bg-white/75 dark:bg-midnight-800/75 backdrop-blur-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 rounded-2xl border border-gray-200/50 dark:border-midnight-700/50;
 }
 
 /* Grid layouts */
