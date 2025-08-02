@@ -318,7 +318,7 @@ const Contact = () => {
               >
                 Start a Conversation
               </button>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
